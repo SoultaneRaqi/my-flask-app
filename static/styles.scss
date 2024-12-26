@@ -1,0 +1,28 @@
+// Color Variables
+
+
+$primary-color: #007bff;
+$primary-hover-color: #0069d9;
+$success-color: #28a745;
+$success-hover-color: #2b8a3e;
+$title-color: #333;
+$bg-color: wheat;
+
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $bg-color;
+
+}
+
+.content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
